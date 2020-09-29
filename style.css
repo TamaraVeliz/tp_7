@@ -1,0 +1,503 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background: rgb(214,214,214);
+    background: linear-gradient(0deg, rgba(214,214,214,1) 0%, rgba(255,255,255,1) 100%);}
+    
+header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    top: 0;
+    position: sticky;
+
+}
+
+.container-title h1{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.navbar{
+    display: none;
+}
+
+nav{
+    text-align: center; 
+    padding: 10px 0; 
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+
+
+}
+
+.fa-1x {
+    font-size: 1.5rem;
+    }
+    .navbar-toggler.toggler-example {
+    cursor: pointer;
+    }
+    .dark-blue-text {
+    color: #0A38F5;
+    }
+    .dark-pink-text {
+    color: #AC003A;
+    }
+    .dark-amber-text {
+    color: #ff6f00;
+    }
+    .dark-teal-text {
+    color: #004d40;
+    }
+
+nav a:hover{
+    cursor: pointer;
+    color: #aaaaaa;
+    transition: 0.1s all ease-in;
+     
+      
+}
+
+.dark-blue-text{
+    color: #fff;
+}
+
+.navbar-toggler{
+    border: 1px solid #ffffff;
+}
+
+main{
+    margin: auto;
+    padding: 40px 0;
+    width: 80vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container-title h3{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 60px;
+    line-height: 70px;
+    color: #aaaaaa;
+}
+
+main .container-img-info{
+    text-align: center;
+    width: 50%;
+}
+
+.container-img-info img {
+    border-radius: 250px;
+    width: 30vw;
+}
+
+.container-img-info img:hover{
+    border-radius: 70px 0;
+    transition: 0.3s all ease-in;
+}
+
+.container-img-info div {
+    padding: 10px 0;
+   
+    
+ 
+}
+
+.container-info{
+    width: 80%;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.container-info p{
+    font-size: 2vh;
+}
+
+.sucursales-lista{
+    padding: 30px 0;
+}
+
+.sucursales-lista p {
+    padding: 10px 0;
+    font-weight: 500;
+    color: #aaaaaa;
+   
+}
+
+.sucursales-lista p a{
+    text-decoration: none;
+    color: #aaaaaa;
+    
+}
+
+.sucursales-lista p a:hover{
+    color: #5f5f5f;
+    transition: 0.3s all ease-in;
+}
+
+.container-img-info .mail {
+    color: #5f5f5f;
+}
+.container-img-info div a{
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+    font-size: 12px;
+    
+}
+
+.container-img-info div a:hover{
+  
+    transition: 0.2s all ease-in;
+    color: cadetblue;
+}
+
+.container-img-info h4{
+    font-size: 3vh;
+    font-family: 'Beth Ellen', cursive;
+    line-height: 5vh;
+    color: #5f5f5f;
+    padding: 20px 0;
+}
+
+section .maps-container {
+    padding: 5vh 0;
+    text-align: center;
+}
+
+form div{
+    padding: 10px 0;
+}
+
+form div label{
+    font-size: 2vh;
+    color:  #4e4e4e;
+    padding: 0 3px;
+}
+
+form div input{
+    border-radius: 5px;
+    border: 1px #aaaaaa solid;
+    padding: 3px;
+    font-size: 2vh;
+    color:  #4e4e4e;
+
+}
+
+form div input::placeholder{
+    font-size: 11px;
+    color:  #858585;
+}
+
+form div button{
+    border-radius: 5px;
+    background-color: cadetblue;
+    padding: 10px 20px;
+    border: none;
+ 
+}
+
+form div button a{
+    color: #ffffff;
+}
+
+form div p{
+    font-size: 2vh;
+    color:  #4e4e4e;
+}
+
+form div button:hover{
+    background-color: rgb(159, 214, 216);
+    color: cadetblue;
+}
+
+section h3{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 25px;
+    color: #5f5f5f;
+    padding: 0 0 30px 0;
+}
+
+.clientes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0 50px 0;
+}
+
+section .clientes-container{
+    display: flex;
+}
+
+.cliente-contariner{
+    margin: 10px;
+}
+
+
+
+.cliente-contariner img{
+    width: 25vw;
+    border-radius: 30px 0;
+
+}
+
+
+.cliente-contariner img:hover{
+ -webkit-box-shadow: 7px 7px 8px 0px rgba(71,71,71,1);
+-moz-box-shadow: 7px 7px 8px 0px rgba(71,71,71,1);
+box-shadow: 7px 7px 8px 0px rgba(71,71,71,1);
+transition: 0.2s all ease-in;
+
+}
+
+section table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tintas-title{
+    text-align: center;
+    padding: 20px 0;
+
+}
+footer {
+    background-color: cadetblue;
+     padding: 20px 0;
+     text-align: center;
+}
+
+footer .container-iconos a {
+   font-size: 5vh;
+   color: #ffffff;
+}
+
+footer .container-iconos a:hover{
+    color: rgb(71, 71, 71);
+}
+
+footer p {
+    font-size:2vh;
+    padding: 8px;
+    color: #ffffff;
+}
+
+.maps-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 95vw;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.maps-container iframe{
+    width: 95%;
+    margin: 10px 0;
+}
+
+
+
+.carrousel{
+    margin: auto;
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #d4d4d4;
+   
+}
+
+.carrousel div {
+    padding: 2vh;
+}
+
+h4{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 8vh;
+    color: #a1a1a1;
+}
+
+.contenedor-c{
+    width: 35%;
+}
+
+.text_c{
+    width: 30%;
+}
+
+@media screen and (max-width:  765px) {
+    header{
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 10px;
+        top: 0;
+        position: sticky;
+    
+    }
+
+    .navbar{
+        display: block;
+        
+    }
+
+    .navbar a {
+        color: #ffffff;
+        padding: 0,5em 0;
+    }
+
+    .navbar h1{
+        font-family: 'Beth Ellen', cursive;
+        font-size: 25px;
+        color: #ffffff;
+
+    }
+
+    .general, .nav-desktop{
+        display: none;
+    }
+
+    main{
+        padding: 40px 0;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main div{
+        margin: 20px 0;
+    }
+
+    .container-title h3 {
+        text-align: center;
+    }
+
+    .container-img-info img {
+        text-align: center;
+        width: 40vw;
+    }
+
+    .clientes{
+        width: 80%;
+        margin: auto;
+    }
+
+    .clientes h3{
+        font-size: 3vh;
+        text-align: center;
+    }
+
+    .cliente-contariner img{
+        width: 28vw;
+       
+    
+    }
+    
+    form{
+        text-align: center;
+        width: 85%;
+        margin: auto;
+    }
+
+    .form div{
+        text-align: center;
+        margin: auto;
+    }
+    
+    .sucursales-lista p{
+        text-align: center;
+    }
+
+    
+    .contenedor-c{
+        width: 50%;
+    }
+
+    h4{
+        font-family: 'Beth Ellen', cursive;
+        font-size: 7vh;
+        color: #a1a1a1;
+        text-align: center;
+        padding: 2vh 0;
+    }
+    
+   
+    
+    .text_c{
+        width: 90%;
+        text-align: center;
+        
+    }
+    
+
+    
+
+    
+}
+
+@media screen and (max-width:  576px){
+    .container-title h3{
+        font-size: 5vh;
+    }
+
+    .container-img-info img {
+        text-align: center;
+        width: 50vw;
+    }
+
+    section .clientes-container{
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .cliente-contariner img{
+        width: 65vw;
+       
+    
+    }
+
+  
+
+    h4{
+        font-family: 'Beth Ellen', cursive;
+        font-size: 5vh;
+        color: #a1a1a1;
+        text-align: center;
+        padding: 2vh 0;
+    }
+    
+    .contenedor-c{
+        width: 100%;
+    }
+    
+    .text_c{
+        width: 80%;
+        text-align: center;
+        
+    }
+    
+
+  
+ 
+}
